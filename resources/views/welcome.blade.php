@@ -61,6 +61,9 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+            div{
+                font-size: 20px;
+            }
         </style>
     </head>
     <body>
@@ -89,10 +92,13 @@
                     <a href="https://nova.laravel.com">Nova</a>
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://github.com/Sam0522/PAO">GitHub</a>
                 </div>
                 <div>
-                    <img src="https://e-tailors.nl/wp-content/uploads/2019/07/laravel-logo.png">
+                    <img src="https://i.pinimg.com/originals/7c/ac/e3/7cace39ee58e37de1da49183ea1d3920.jpg">
+                </div>
+                <div>
+                <b>Deze website wordt beveiligd door de Sniper Monkey.</b>
                 </div>
             </div>
         </div>
