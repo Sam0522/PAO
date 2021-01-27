@@ -89,9 +89,9 @@
                 </div>
                 <div class="links">
                     <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
+                    <a href="http://samharke.nl/">Sam</a>
+                    <a href="http://joerydisselhof.nl/">Joery</a>
+                    <a href="http://enwerscholing.nl/">Enwer</a>
                     <a href="https://github.com/Sam0522/PAO">GitHub</a>
                 </div>
                 <div>
