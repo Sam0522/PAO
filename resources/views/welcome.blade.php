@@ -92,6 +92,7 @@
                     <a href="http://samharke.nl/">Sam</a>
                     <a href="http://joerydisselhof.nl/">Joery</a>
                     <a href="http://enwerscholing.nl/">Enwer</a>
+                    <a href="http://scholtenantonie.com/">Antonie</a>
                     <a href="https://github.com/Sam0522/PAO">GitHub</a>
                 </div>
                 <div>
