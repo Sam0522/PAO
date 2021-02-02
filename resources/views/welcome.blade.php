@@ -66,21 +66,22 @@
             }
         </style>
     </head>
-    <body class="antialiased">
-    <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
-            <?php if(Route::has('login')): ?>
-                <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
-                    <?php if(auth()->guard()->check()): ?>
-                        <a href="<?php echo e(url('/home')); ?>" class="text-sm text-gray-700 underline">Home</a>
-                    <?php else: ?>
-                        <a href="<?php echo e(route('login')); ?>" class="text-sm text-gray-700 underline">Login</a>
 
-                        <?php if(Route::has('register')): ?>
-                            <a href="<?php echo e(route('register')); ?>" class="ml-4 text-sm text-gray-700 underline">Register</a>
-                        <?php endif; ?>
-                    <?php endif; ?>
+    <body>
+        <div class="flex-center position-ref full-height">
+            @if (Route::has('login'))
+                <div class="top-right links">
+                    @auth
+                        <a href="{{ url('/home') }}">Logout/Home</a>
+                    @else
+                        <a href="{{ route('login') }}">Login</a>
+
+                        @if (Route::has('register'))
+                            <a href="{{ route('register') }}">Register</a>
+                        @endif
+                    @endauth
                 </div>
-            <?php endif; ?>
+            @endif
 
             <div class="content">
 
