@@ -89,6 +89,7 @@
                 Sam, Joery, Enwer en Antonie <br>
                 </div>
                 <div class="links">
+                    <a href="home/">Home</a>
                     <a href="https://blog.laravel.com">Blog</a>
                     <a href="http://samharke.nl/">Sam</a>
                     <a href="http://joerydisselhof.nl/">Joery</a>
