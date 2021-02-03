@@ -97,7 +97,7 @@
                     <a href="https://github.com/Sam0522/PAO">GitHub</a>
                 </div>
                 <div>
-                    <img src="img\snipermonkey.png" width="40%">
+                    <img src="img\snipermonkey.png" width="46%">
                 </div>
                 <div>
                 <b>Deze website wordt beveiligd door de Skerpskutter Aapie.</b><br> 
@@ -108,15 +108,21 @@
                     Apparte gozer
                 </div>
 
+                    <br>
+
                 <div class="">
                     <b>Antonie</b><br>
                     Beetje gay
                 </div>
 
+                    <br>
+
                 <div class="">
                     <b>Enwer</b><br>
-                    Geval appart
+                    Geval apart
                 </div>
+
+                <br>
 
                 <div class="">
                     <b>Joery</b><br>
