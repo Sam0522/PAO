@@ -95,6 +95,7 @@
                     <a href="http://enwerscholing.nl/">Enwer</a>
                     <a href="http://scholtenantonie.com/">Antonie</a>
                     <a href="https://github.com/Sam0522/PAO">GitHub</a>
+                    <a href="about/">About us</a>
                 </div>
                 <div>
                     <img src="img\aaapie.png" width="40%">
