@@ -86,7 +86,7 @@
             <div class="content">
 
                 <div class="title m-b-md">
-                Sam, Joery, Enwer en Antonie <br>
+                Sam, Joey, Enwer en Antonie <br>
                 </div>
                 <div class="links">
                     <a href="https://blog.laravel.com">Blog</a>
