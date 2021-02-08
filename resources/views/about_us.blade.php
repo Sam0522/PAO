@@ -91,10 +91,6 @@
                 <div class="links">
                     <a href="/">Home</a>
                     <a href="https://blog.laravel.com">Blog</a>
-                    <a href="http://samharke.nl/">Sam</a>
-                    <a href="http://joerydisselhof.nl/">Joery</a>
-                    <a href="http://enwerscholing.nl/">Enwer</a>
-                    <a href="http://scholtenantonie.com/">Antonie</a>
                     <a href="https://github.com/Sam0522/PAO">GitHub</a>
                 </div>
                 <div>
@@ -104,36 +100,14 @@
                 <b>Deze website wordt beveiligd door de Skerpskutter Aapie.</b><br> 
                 </div>
 
-                <div class="">
+                    <br>
+
+                <div class="links">
                     <b>Over ons</b>
                     <br>
-                    Wij zijn Antonie, Enwer, Joery en Sam
-                </div>
-
-                <div class="">
-                    <b>Sam</b><br>
-                    Apparte gozer
-                </div>
-
+                    Wij zijn <a href="http://scholtenantonie.com/">Antonie</a>,<a href="http://enwerscholing.nl">Enwer</a>,<a href="http://joerydisselhof.nl/">Joery</a>en<a href="http://samharke.nl/">Sam</a>de makers van deze website!
                     <br>
-
-                <div class="">
-                    <b>Antonie</b><br>
-                    Beetje gay
-                </div>
-
-                    <br>
-
-                <div class="">
-                    <b>Enwer</b><br>
-                    Geval apart
-                </div>
-
-                <br>
-
-                <div class="">
-                    <b>Joery</b><br>
-                    Behaard
+                    Wij hebben deze site gemaakt voor onze PAO opdracht en zijn nogsteeds de Laravel taal aan het leren!
                 </div>
             </div>
         </div>
