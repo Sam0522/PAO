@@ -89,7 +89,7 @@
                 Sam, Joery, Enwer en Antonie <br>
                 </div>
                 <div class="links">
-                    <a href="home/">Home</a>
+                    <a href="/">Home</a>
                     <a href="https://blog.laravel.com">Blog</a>
                     <a href="http://samharke.nl/">Sam</a>
                     <a href="http://joerydisselhof.nl/">Joery</a>
@@ -98,10 +98,16 @@
                     <a href="https://github.com/Sam0522/PAO">GitHub</a>
                 </div>
                 <div>
-                    <img src="img\snipermonkey.png" width="46%">
+                    <img src="img\aaapie.png" width="46%">
                 </div>
                 <div>
                 <b>Deze website wordt beveiligd door de Skerpskutter Aapie.</b><br> 
+                </div>
+
+                <div class="">
+                    <b>Over ons</b>
+                    <br>
+                    Wij zijn Antonie, Enwer, Joery en Sam
                 </div>
 
                 <div class="">
