@@ -9,62 +9,76 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
         <link rel="shortcut icon" type="img\favicon.png" href="img\favicon.png"/>
-
+        <link rel="stylesheet" href="./css/app.css">
         <!-- Styles -->
         <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
+        html, body {
+            background-color: #1157d3;
+background-image: linear-gradient(68deg, #1157d3 0%, #1048c0 17%, #0f39ad 39%, #0f299b 60%, #0e1a88 80%, #06074d 100%);
 
-            .full-height {
-                height: 100vh;
-            }
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
 
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
+.full-height {
+    height: 100vh;
+}
 
-            .position-ref {
-                position: relative;
-            }
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
 
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
+.position-ref {
+    position: relative;
+}
 
-            .content {
-                text-align: center;
-            }
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    width: 100%;
+    background-color: #ffffff;
+    height: 106px;
+    /* border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 25px; */
+}
 
-            .title {
-                font-size: 84px;
-            }
+.content {
+    text-align: center;
+}
 
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
+.title {
+    font-size: 84px;
+}
 
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-            div{
-                font-size: 20px;
-            }
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+div{
+    font-size: 20px;
+}
+
+a.login{
+    float: right;
+    margin-top: 18px;
+    color: #636b6f;
+    margin-top: 35px;
+}
         </style>
     </head>
 
@@ -72,13 +86,21 @@
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
+                <img src="img\aaapie.png" width="8%">
+                <a href="https://blog.laravel.com">Blog</a>
+                    <a href="http://samharke.nl/">Sam</a>
+                    <a href="http://joerydisselhof.nl/">Joery</a>
+                    <a href="http://enwerscholing.nl/">Enwer</a>
+                    <a href="http://scholtenantonie.com/">Antonie</a>
+                    <a href="https://github.com/Sam0522/PAO">GitHub</a>
+                    <a href="about/">About us</a>
                     @auth
-                        <a href="{{ url('/home') }}">Logout/Home</a>
+                        <a class="login" href="{{ url('/home') }}">Logout/Home</a>
                     @else
-                        <a href="{{ route('login') }}">Login</a>
+                        <a class="login" href="{{ route('login') }}">Login</a>
 
                         @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
+                            <a class="login" href="{{ route('register') }}">Register</a>
                         @endif
                     @endauth
                 </div>
@@ -90,13 +112,7 @@
                 Sam, Joery, Enwer en Antonie <br>
                 </div>
                 <div class="links">
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="http://samharke.nl/">Sam</a>
-                    <a href="http://joerydisselhof.nl/">Joery</a>
-                    <a href="http://enwerscholing.nl/">Enwer</a>
-                    <a href="http://scholtenantonie.com/">Antonie</a>
-                    <a href="https://github.com/Sam0522/PAO">GitHub</a>
-                    <a href="about/">About us</a>
+                    
                 </div>
                 <div>
                     <img src="img\aaapie.png" width="40%">
