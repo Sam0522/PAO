@@ -92,6 +92,7 @@ a.login2{
             @if (Route::has('login'))
                 <div class="top-right links">
                 <img src="img\aaapie.png" width="8%" style="float: left;">
+                <a class="login2" href=" /">Home</a>
                 <a class="login2" href="https://blog.laravel.com">Blog</a>
                     <a class="login2" href="http://samharke.nl/">Sam</a>
                     <a class="login2" href="http://joerydisselhof.nl/">Joery</a>
