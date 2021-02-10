@@ -39,7 +39,7 @@ background-image: linear-gradient(68deg, #1157d3 0%, #1048c0 17%, #0f39ad 39%, #
 
 .top-right {
     position: absolute;
-    right: 10px;
+    
     top: 0px;
     width: 100%;
     background-color: #ffffff;
