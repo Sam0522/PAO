@@ -105,7 +105,7 @@
                 <div class="links">
                     <b>Over ons</b>
                     <br>
-                    Wij zijn <a href="http://scholtenantonie.com/">Antonie</a>,<a href="http://enwerscholing.nl">Enwer</a>,<a href="http://joerydisselhof.nl/">Joery</a>en<a href="http://samharke.nl/">Sam</a>de makers van deze website!
+                    Wij zijn <a href="http://scholtenantonie.com/">Antonie</a>,<a href="http://enwerscholing.nl">Enwer</a>,<a href="http://joerydisselhof.nl/">Joery</a>en<a href="http://samharke.nl/">Sam</a>, de makers van deze website!
                     <br>
                     Wij hebben deze site gemaakt voor onze PAO opdracht en zijn nogsteeds de Laravel taal aan het leren!
                 </div>
