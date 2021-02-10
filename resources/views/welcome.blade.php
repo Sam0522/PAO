@@ -86,7 +86,7 @@ a.login{
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
-                <img src="img\aaapie.png" width="8%">
+             <a href="./" >  <img src="img\aaapie.png" width="8%">
                 <a href="https://blog.laravel.com">Blog</a>
                     <a href="http://samharke.nl/">Sam</a>
                     <a href="http://joerydisselhof.nl/">Joery</a>
@@ -94,6 +94,7 @@ a.login{
                     <a href="http://scholtenantonie.com/">Antonie</a>
                     <a href="https://github.com/Sam0522/PAO">GitHub</a>
                     <a href="about/">About us</a>
+                    <a href=" ./">home</a>
                     @auth
                         <a class="login" href="{{ url('/home') }}">Logout/Home</a>
                     @else

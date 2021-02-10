@@ -9,6 +9,7 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
         <link rel="shortcut icon" type="img\favicon.png" href="img\favicon.png"/>
+        <link rel="stylesheet" href="./css/app.css">
         <!-- Styles -->
         <style>
         html, body {
@@ -89,17 +90,17 @@ a.login2{
 
     <body>
     <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
+    @if (Route::has('login'))
                 <div class="top-right links">
-                <img src="img\aaapie.png" width="8%" style="float: left;">
-                <a class="login2" href=" /">Home</a>
-                <a class="login2" href="https://blog.laravel.com">Blog</a>
-                    <a class="login2" href="http://samharke.nl/">Sam</a>
-                    <a class="login2" href="http://joerydisselhof.nl/">Joery</a>
-                    <a  class="login2" href="http://enwerscholing.nl/">Enwer</a>
-                    <a  class="login2" href="http://scholtenantonie.com/">Antonie</a>
-                    <a  class="login2" href="https://github.com/Sam0522/PAO">GitHub</a>
-                    <a  class="login2" href="about/">About us</a>
+             <a href="./">   <img src="img\aaapie.png" width="8%"></a>
+                <a href="https://blog.laravel.com">Blog</a>
+                    <a href="http://samharke.nl/">Sam</a>
+                    <a href="http://joerydisselhof.nl/">Joery</a>
+                    <a href="http://enwerscholing.nl/">Enwer</a>
+                    <a href="http://scholtenantonie.com/">Antonie</a>
+                    <a href="https://github.com/Sam0522/PAO">GitHub</a>
+                    <a href="about/">About us</a>
+                    <a href=" ./">home</a>
                     @auth
                         <a class="login" href="{{ url('/home') }}">Logout/Home</a>
                     @else
@@ -112,8 +113,11 @@ a.login2{
                 </div>
             @endif
 
+
             <div class="content">
 
+               <div class="content">
+<br><br><br><br>
                 <div class="title m-b-md">
                 Sam, Joery, Enwer en Antonie <br>
                 </div>

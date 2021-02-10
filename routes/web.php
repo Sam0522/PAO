@@ -25,6 +25,9 @@ Route::get('/about', [App\Http\Controllers\AboutController::class, 'index'])->na
 
 
 
+
+
+
 Auth::routes(['verify'=>true]);
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
