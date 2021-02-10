@@ -127,7 +127,7 @@ a.login2{
                     <img src="img\aaapie.png" width="40%">
                 </div>
                 <div>
-                <b>Deze website wordt beveiligd door de Skerpskutter Aapie..</b><br> 
+                <b>Deze website wordt beveiligd door de Skerpskutter Aapie.</b><br> 
                 </div>
 
                     <br>
