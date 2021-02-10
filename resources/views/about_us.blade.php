@@ -93,14 +93,15 @@ a.login2{
     @if (Route::has('login'))
                 <div class="top-right links">
              <a href="./">   <img src="img\aaapie.png" width="8%"></a>
-                <a href="https://blog.laravel.com">Blog</a>
-                    <a href="http://samharke.nl/">Sam</a>
-                    <a href="http://joerydisselhof.nl/">Joery</a>
-                    <a href="http://enwerscholing.nl/">Enwer</a>
-                    <a href="http://scholtenantonie.com/">Antonie</a>
-                    <a href="https://github.com/Sam0522/PAO">GitHub</a>
-                    <a href="about/">About us</a>
-                    <a href=" ./">home</a>
+             <a href=" ./">home</a>
+             <a href="about/">About us</a>
+             <a href="https://github.com/Sam0522/PAO">GitHub</a>
+             <a href="https://dev.azure.com/aaapie/PAO">Devops</a>
+                <!-- <a href="https://blog.laravel.com">Blog</a> -->
+                    
+                   
+                   
+                   
                     @auth
                         <a class="login" href="{{ url('/home') }}">Logout/Home</a>
                     @else
