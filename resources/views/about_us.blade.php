@@ -114,7 +114,6 @@ a.login2{
             @endif
 
 
-            <div class="content">
 
                <div class="content">
 <br><br><br><br>
@@ -125,7 +124,7 @@ a.login2{
                     
                 </div>
                 <div>
-                    <img src="img\aaapie.png" width="46%">
+                    <img src="img\aaapie.png" width="40%">
                 </div>
                 <div>
                 <b>Deze website wordt beveiligd door de Skerpskutter Aapie.</b><br> 
@@ -140,7 +139,7 @@ a.login2{
                     <br>
                     Wij hebben deze site gemaakt voor onze PAO opdracht en zijn nogsteeds de Laravel taal aan het leren!
                 </div>
-            </div>
+            
         </div>
     </body>
 </html>
