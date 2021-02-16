@@ -89,8 +89,10 @@ a.login{
              <a href="./" >  <img src="img\aaapie.png" width="8%">
              <a href=" ./">home</a>
              <a href="about/">About us</a>
+             <a href="cars/" > Crud</a>
              <a href="https://github.com/Sam0522/PAO">GitHub</a>
              <a href="https://dev.azure.com/aaapie/PAO">Devops</a>
+             
                 <!-- <a href="https://blog.laravel.com">Blog</a> -->
                     
                     @auth
