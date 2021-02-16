@@ -119,7 +119,7 @@ a.login2{
                <div class="content">
 <br><br><br><br>
                 <div class="title m-b-md">
-                Sam, Joerytest, Enwer en Antonie <br>
+                Sam, Joery, Enwer en Antonie <br>
                 </div>
                 <div class="links">
                     
