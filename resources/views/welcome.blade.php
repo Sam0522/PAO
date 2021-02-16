@@ -39,7 +39,7 @@ background-image: linear-gradient(68deg, #1157d3 0%, #1048c0 17%, #0f39ad 39%, #
 
 .top-right {
     position: absolute;
-    right: 10px;
+    
     top: 0px;
     width: 100%;
     background-color: #ffffff;
@@ -86,14 +86,13 @@ a.login{
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
-                <img src="img\aaapie.png" width="8%">
-                <a href="https://blog.laravel.com">Blog</a>
-                    <a href="http://samharke.nl/">Sam</a>
-                    <a href="http://joerydisselhof.nl/">Joery</a>
-                    <a href="http://enwerscholing.nl/">Enwer</a>
-                    <a href="http://scholtenantonie.com/">Antonie</a>
-                    <a href="https://github.com/Sam0522/PAO">GitHub</a>
-                    <a href="about/">About us</a>
+             <a href="./" >  <img src="img\aaapie.png" width="8%">
+             <a href=" ./">home</a>
+             <a href="about/">About us</a>
+             <a href="https://github.com/Sam0522/PAO">GitHub</a>
+             <a href="https://dev.azure.com/aaapie/PAO">Devops</a>
+                <!-- <a href="https://blog.laravel.com">Blog</a> -->
+                    
                     @auth
                         <a class="login" href="{{ url('/home') }}">Logout/Home</a>
                     @else
