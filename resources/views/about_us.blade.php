@@ -21,15 +21,10 @@
       
             @if (Route::has('login'))
                 <div class="top-right links">
-<<<<<<< HEAD
-             <a href="./">   <img src="img\aaapie.png" width="8%"></a>
-             <a href="./">home</a>
-=======
                 <div class="topnav" id="myTopnav">
              <a  style="white-space: break-spaces;"href="./" >  <img class="logo" src="img\aaapie.png" width="8%"> </a>
            
              <a href=" ./">home</a>
->>>>>>> 5e76bc3dee1233a2c6c1f05b448b87f4183c83d5
              <a href="about/">About us</a>
              <a href="cars/" > Crud</a>
              <a href="https://github.com/Sam0522/PAO">GitHub</a>
