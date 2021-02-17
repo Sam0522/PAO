@@ -77,6 +77,7 @@ a.login{
     color: #636b6f;
     margin-top: 35px;
 }
+
         </style>
     <section style="padding-top:60px;">
         <div class="container">
@@ -85,7 +86,7 @@ a.login{
                     <div class="card">
                         <div class="card-header">
                             <b>Edit Car</b>
-                            <a href="cars" class="btn btn-secondary" style="float:right;">Home</a>
+                            <a href="./" class="btn btn-secondary" style="float:right;">Home</a>
                         </div>
                         <div class="card-body">
                             @if(Session::has('car_updated'))
