@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -10,83 +12,22 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
         <link rel="shortcut icon" type="img\favicon.png" href="img\favicon.png"/>
         <link rel="stylesheet" href="./css/app.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- Styles -->
         <style>
-        html, body {
-            background-color: #1157d3;
-background-image: linear-gradient(68deg, #1157d3 0%, #1048c0 17%, #0f39ad 39%, #0f299b 60%, #0e1a88 80%, #06074d 100%);
-
-    color: #ffffff;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 200;
-    height: 100vh;
-    margin: 0;
-}
-
-.full-height {
-    height: 100vh;
-}
-
-.flex-center {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-
-.position-ref {
-    position: relative;
-}
-
-.top-right {
-    position: absolute;
-    
-    top: 0px;
-    width: 100%;
-    background-color: #ffffff;
-    height: 106px;
-    /* border-bottom-left-radius: 40px;
-    border-bottom-right-radius: 25px; */
-}
-
-.content {
-    text-align: center;
-}
-
-.title {
-    font-size: 84px;
-}
-
-.links > a {
-    color: #636b6f;
-    padding: 0 25px;
-    font-size: 13px;
-    font-weight: 600;
-    letter-spacing: .1rem;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.m-b-md {
-    margin-bottom: 30px;
-}
-div{
-    font-size: 20px;
-}
-
-a.login{
-    float: right;
-    margin-top: 18px;
-    color: #636b6f;
-    margin-top: 35px;
-}
+     
         </style>
     </head>
 
     <body>
         <div class="flex-center position-ref full-height">
+      
             @if (Route::has('login'))
                 <div class="top-right links">
-             <a href="./" >  <img src="img\aaapie.png" width="8%">
+                <div class="topnav" id="myTopnav">
+             <a  style="white-space: break-spaces;"href="./" >  <img class="logo" src="img\aaapie.png" width="8%"> </a>
+           
              <a href=" ./">home</a>
              <a href="about/">About us</a>
              <a href="cars/" > Crud</a>
@@ -94,7 +35,7 @@ a.login{
              <a href="https://dev.azure.com/aaapie/PAO">Devops</a>
              
                 <!-- <a href="https://blog.laravel.com">Blog</a> -->
-                    
+              
                     @auth
                         <a class="login" href="{{ url('/home') }}">Logout/Home</a>
                     @else
@@ -104,9 +45,20 @@ a.login{
                             <a class="login" href="{{ route('register') }}">Register</a>
                         @endif
                     @endauth
-                </div>
-            @endif
-
+                   
+            @endif   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i style="font-size:24px; margin-top: 10px;" class="fa fa-bars"></i>
+  </a> </div></div>
+            <script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
             <div class="content">
 
                 <div class="title m-b-md">
