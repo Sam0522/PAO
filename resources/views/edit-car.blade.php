@@ -85,7 +85,7 @@ a.login{
                     <div class="card">
                         <div class="card-header">
                             <b>Edit Car</b>
-                            <a href="cars" class="btn btn-secondary" style="float:right;">Home</a>
+                            <a href="./" class="btn btn-secondary" style="float:right;">Home</a>
                         </div>
                         <div class="card-body">
                             @if(Session::has('car_updated'))
